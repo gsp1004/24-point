@@ -136,7 +136,7 @@ def main():
     global all_res
     while True:
         all_res = set()
-        s = input("input 4 num in range 1-10,separate by space:")
+        s = input("input 4 num in range 1-13,separate by space:")
         temp = s.split(" ")
         res = []
         for i in temp:
@@ -159,19 +159,5 @@ def main():
         for i in all_res:
             print(i)
 
-
-main()
-
-"""        
-        for i in range(len(res)):
-            one = res[i]
-            res2 = res.pop(i)
-            for j in range(len(res2)):
-                two = res[j]
-                res3 = res.pop(j)
-                for k in range(len(res3)):
-                    three = res[k]
-                    res4 = res.pop(k)
-                    for x in range(len(res4)):
-                        four = res[x]
-"""
+if __name__ == "__main__":
+    main()
